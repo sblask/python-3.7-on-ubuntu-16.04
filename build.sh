@@ -2,7 +2,7 @@
 
 set -o errexit -o nounset -o pipefail -o xtrace
 
-PYTHON_VERSION=3.7.2
+PYTHON_VERSION=3.7.6
 
 # this must not be plain python as otherwise the system Python gets overridden
 PACKAGE_NAME=python3.7
